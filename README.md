@@ -1,5 +1,9 @@
-<h1> Spark </h1>
-
+# Spark 
 Instalación, configuración y ejecución de proyectos con Apache Spark
 
-<h4>Preparación del entorno de trabajo</h4>
+### Preparación del entorno de trabajo
+Para trabajar con Spark, necesitamos instalar los siguientes programas:
+- **java8**
+  ```
+  gulp build dist --prod
+  ```
