@@ -32,8 +32,10 @@ Cambiamos el nombre del archivo, lo enviamos a la ruta principal y eliminamos el
   rm spark-3.1.2-bin-hadoop3.2.tgz
 ```
   
-Instalamos Anaconda en nuestro entorno Linux
+Instalamos Anaconda en nuestro entorno Linux y la exportamos como variable de entorno
   
 ```
   wget https://repo.anaconda.com/archive/Anaconda3-2020.02-Linux-x86_64.sh  
+  sh Anaconda3-2020.02-Linux-x86_64.sh -b
+  export PATH=/home/user/anaconda3/bin:$PATH
 ```
