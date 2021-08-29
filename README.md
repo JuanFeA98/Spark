@@ -39,3 +39,30 @@ Instalamos Anaconda en nuestro entorno Linux y la exportamos como variable de en
   sh Anaconda3-2020.02-Linux-x86_64.sh -b
   export PATH=/home/user/anaconda3/bin:$PATH
 ```
+
+### Configuración de las variables de entorno
+
+```
+  nano .bashrc
+```
+
+PATH de Java 
+```
+  export JAVA_HOME="/home/User/spark"
+  export PATH=$JAVA_HOME/bin:$PATH
+```
+Path de Spark
+
+```
+  export SPARK_HOME="/home/User/spark"
+  export PATH=$SPARK_HOME:$PATH
+  export PYTHONPATH=$SPARK_HOME/python/:$PYTHONPATH
+  export PYSPARK_PYTHON=python3
+```
+Guardamos y ejecutamos:
+
+```
+  source .bashrc
+```
+
+
